@@ -18,5 +18,6 @@ if (args.h || args.help) {
         console.log(' Rules for Rock Paper Scissors:', '\n\n', '  - Scissors CUTS Paper', '\n', '  - Paper COVERS Rock', '\n', '  - Rock CRUSHES Scissors');
     } else {
         console.log(JSON.stringify(output));
+        
     }
 }
