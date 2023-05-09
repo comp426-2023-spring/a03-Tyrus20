@@ -17,6 +17,6 @@ if (args.h || args.help) {
     if (output instanceof Error) {
         console.log(' Rules for the Lizard-Spock Expansion of Rock Paper Scissors:', '\n\n', '  - Scissors CUTS Paper', '\n', '  - Paper COVERS Rock', '\n', '  - Rock SMOOSHES Lizard', '\n', '  - Lizard POISONS Spock', '\n', '  - Spock SMASHES Scissors', '\n', '  - Scissors DECAPITATES Lizard', '\n', '  - Lizard EATS Paper', '\n', '  - Paper DISPROVES Spock', '\n', '  - Spock VAPORIZES Rock', '\n', '  - Rock CRUSHES Scissors');
     } else {
-        console.log(output);
+        console.log(JSON.stringify(output));
     }
 }
