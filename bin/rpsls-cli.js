@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-//command line interface for rock-paper-scissors-lizard-spock
+//command line interface for rock-paper-scissors-lizard-Spock
 
 import minimist from 'minimist';
 import { rpsls } from '../lib/rpsls.js';
