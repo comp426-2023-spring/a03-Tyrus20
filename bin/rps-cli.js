@@ -13,10 +13,12 @@ if (args.h || args.help) {
     console.log(' Rules for Rock Paper Scissors:', '\n\n', '  - Scissors CUTS Paper', '\n', '  - Paper COVERS Rock', '\n', '  - Rock CRUSHES Scissors');
 } else {
     let output = rps(args._[0]);
-
+    console.log(output);
+/*
     if (output instanceof Error) {
         console.log(' Rules for Rock Paper Scissors:', '\n\n', '  - Scissors CUTS Paper', '\n', '  - Paper COVERS Rock', '\n', '  - Rock CRUSHES Scissors');
     } else {
         console.log(output);
     }
+    */
 }
