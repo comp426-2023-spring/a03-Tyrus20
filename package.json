@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "rock paper scissors",
   "main": "./lib/rpsls.js",
+  "bin": {
+    "node-rps": "./bin/rps-cli.js",
+    "node-rpsls": "rpsls-cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
