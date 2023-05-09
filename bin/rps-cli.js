@@ -16,7 +16,6 @@ if (args.h || args.help) {
 
     if (output instanceof Error) {
         console.log(' Rules for Rock Paper Scissors:', '\n\n', '  - Scissors CUTS Paper', '\n', '  - Paper COVERS Rock', '\n', '  - Rock CRUSHES Scissors');
-
     } else {
         console.log(output);
     }
